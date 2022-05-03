@@ -1,0 +1,20 @@
+##To-do
+--------------------------
+- Generate the password on page load instead of click Generate
+- Create new branch mine so you can carry on 
+- See github theme fonts color
+
+- Fix length and settings text size
+- Hundle color
+- Fix icon for clipboard
+
+- See if border blue will look good, if not leave it as it instead
+
+- center that thing in the middle of the page
+
+-----------------------------
+- Delete fonts that you don't use
+- See page load time
+
+-------------------------------
+- When you are going to deploy it, make that the css doesn't affect the page
