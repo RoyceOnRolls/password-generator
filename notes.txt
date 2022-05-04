@@ -1,11 +1,8 @@
 ##To-do
 --------------------------
 - Generate the password on page load instead of click Generate
-- Create new branch mine so you can carry on 
-- See github theme fonts color
 
 - Fix length and settings text size
-- Hundle color
 - Fix icon for clipboard
 
 - See if border blue will look good, if not leave it as it instead
@@ -18,3 +15,9 @@
 
 -------------------------------
 - When you are going to deploy it, make that the css doesn't affect the page
+- Minify css and js when you integrate it
+
+- change blocked deafled icon, this is displayed when one password setting  is activated
+
+---------------------------------
+- What is window.crypto

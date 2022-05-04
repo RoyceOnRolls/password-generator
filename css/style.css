@@ -115,12 +115,14 @@ button {
   position: absolute;
   top: -10px;
   left: 8px;
+  padding-bottom: 7px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-weight: 800;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -180,7 +182,7 @@ button {
 #slider {
   -webkit-appearance: none;
   width: calc(100% - (70px));
-  height: 2px;
+  height: 3px;
   border-radius: 5px;
   background: #132f4c;
   outline: none;
@@ -310,7 +312,7 @@ button {
 }
 
 .settings .setting input:disabled + label:before {
-  background: #4f4f6a;
+  background: #2c5272;
 }
 
 .settings .setting input:disabled + label:after {
@@ -344,5 +346,11 @@ button {
           transform: translateY(-3%);
   -webkit-box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
           box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
+}
+
+.clipboardIcon {
+  width: 20px;
+  height: 20px;
+  color: #001e3c;
 }
 /*# sourceMappingURL=style.css.map */

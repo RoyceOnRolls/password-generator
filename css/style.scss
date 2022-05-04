@@ -100,11 +100,13 @@ $field-border-radius: 8px;
   position: absolute;
   top: -10px;
   left: 8px;
+  padding-bottom: 7px;
   transform: translateY(-50%);
-  font-weight: 800;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   pointer-events: none;
   user-select: none;
 }
@@ -154,7 +156,8 @@ $range-handle-color-hover: rgb(212, 212, 212) !default;
 $range-handle-size: 20px !default;
 
 $range-track-color: rgb(19, 47, 76) !default;
-$range-track-height: 2px !default;
+
+$range-track-height: 3px !default;
 
 $range-label-width: 60px !default;
 
@@ -265,7 +268,7 @@ $range-label-width: 60px !default;
             cursor: not-allowed;
           }
           &:before {
-            background: #4f4f6a;
+            background: #2c5272;
           }
           &:after {
             background: #909090;
@@ -297,4 +300,11 @@ $range-label-width: 60px !default;
     transform: translateY(-3%);
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
   }
+}
+
+// Mine
+.clipboardIcon {
+  width: 20px;
+  height: 20px;
+  color: rgb(0, 30, 60);
 }
